@@ -2,6 +2,8 @@ The Machine project is an iPad applicaton that logs and monitors health informat
 an iPad application because it should be convenient and very easy to use.  It is focused on the
 Type 2 Diabetic.
 
+The Unit Tests are now using GHUnit
+
 More to come as the development proceeds.
 
 David L. Whitehurst

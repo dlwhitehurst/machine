@@ -33,6 +33,7 @@
 		D1205D2613AC21FA00E346E5 /* TestsAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D1205D2513AC21FA00E346E5 /* TestsAppDelegate_iPad.m */; };
 		D1205D2913AC21FA00E346E5 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1205D2713AC21FA00E346E5 /* MainWindow_iPad.xib */; };
 		D1205D3413AC286000E346E5 /* ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1205D3013AC227B00E346E5 /* ControllerTests.m */; };
+		D1218B9E13AD091E00231688 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D1218B9D13AD091E00231688 /* README */; };
 		D15F8487132DC3B4003BC3E5 /* GoalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */; };
 		D15F8488132DC3B4003BC3E5 /* GoalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */; };
 		D15F848E132DC3D9003BC3E5 /* VitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */; };
@@ -117,6 +118,7 @@
 		D1205D2513AC21FA00E346E5 /* TestsAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestsAppDelegate_iPad.m; path = iPad/TestsAppDelegate_iPad.m; sourceTree = "<group>"; };
 		D1205D2813AC21FA00E346E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		D1205D3013AC227B00E346E5 /* ControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerTests.m; sourceTree = "<group>"; };
+		D1218B9D13AD091E00231688 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		D15F8484132DC3B4003BC3E5 /* GoalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalDetailViewController.h; path = ../GoalDetailViewController.h; sourceTree = "<group>"; };
 		D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalDetailViewController.m; path = ../GoalDetailViewController.m; sourceTree = "<group>"; };
 		D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalDetailView.xib; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D1218B9D13AD091E00231688 /* README */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -500,6 +503,7 @@
 				D1FF462313625368002E9BD3 /* ExerciseAddView.xib in Resources */,
 				D1FF462A136257B9002E9BD3 /* BloodGlucoseAddView.xib in Resources */,
 				D1FF4631136257D1002E9BD3 /* BloodPressureAddView.xib in Resources */,
+				D1218B9E13AD091E00231688 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +761,7 @@
 				D1205D2C13AC21FA00E346E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
