@@ -34,6 +34,7 @@
 		D1218B9E13AD091E00231688 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D1218B9D13AD091E00231688 /* README */; };
 		D13D307B13AD0B7F0041ECAC /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13D307A13AD0B7F0041ECAC /* GHUnitIOS.framework */; };
 		D13D308313AD23F80041ECAC /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308213AD23F80041ECAC /* SampleTests.m */; };
+		D13D308613AD4E2B0041ECAC /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308513AD4E2B0041ECAC /* Goal.m */; };
 		D15F8487132DC3B4003BC3E5 /* GoalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */; };
 		D15F8488132DC3B4003BC3E5 /* GoalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */; };
 		D15F848E132DC3D9003BC3E5 /* VitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */; };
@@ -129,6 +130,8 @@
 		D1218B9D13AD091E00231688 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		D13D307A13AD0B7F0041ECAC /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../../../../Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
 		D13D308213AD23F80041ECAC /* SampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		D13D308413AD4E2B0041ECAC /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goal.h; sourceTree = "<group>"; };
+		D13D308513AD4E2B0041ECAC /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goal.m; sourceTree = "<group>"; };
 		D15F8484132DC3B4003BC3E5 /* GoalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalDetailViewController.h; path = ../GoalDetailViewController.h; sourceTree = "<group>"; };
 		D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalDetailViewController.m; path = ../GoalDetailViewController.m; sourceTree = "<group>"; };
 		D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalDetailView.xib; sourceTree = "<group>"; };
@@ -155,8 +158,6 @@
 		D19EBB2E12FF7434002763E4 /* ContextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextController.h; sourceTree = "<group>"; };
 		D19EBB2F12FF7434002763E4 /* ContextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextController.m; sourceTree = "<group>"; };
 		D19EBB3C12FF7514002763E4 /* ContextController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContextController.xib; sourceTree = "<group>"; };
-		D1EF13101394280600DBC798 /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goal.h; sourceTree = "<group>"; };
-		D1EF13111394280600DBC798 /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goal.m; sourceTree = "<group>"; };
 		D1FC019C131B48FA00863FE2 /* GoalRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalRec.h; path = Classes/GoalRec.h; sourceTree = "<group>"; };
 		D1FC019D131B48FA00863FE2 /* GoalRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalRec.m; path = Classes/GoalRec.m; sourceTree = "<group>"; };
 		D1FC06371325D2B500863FE2 /* RxItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxItem.h; sourceTree = "<group>"; };
@@ -233,6 +234,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D13D308413AD4E2B0041ECAC /* Goal.h */,
+				D13D308513AD4E2B0041ECAC /* Goal.m */,
 				D1FF46111362530B002E9BD3 /* MedicineAddViewController.h */,
 				D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */,
 				D1FF461813625324002E9BD3 /* MealAddViewController.h */,
@@ -293,8 +296,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D1EF13101394280600DBC798 /* Goal.h */,
-				D1EF13111394280600DBC798 /* Goal.m */,
 				D1FC063F1325D2B500863FE2 /* BloodPressureDay.h */,
 				D1FC06401325D2B500863FE2 /* BloodPressureDay.m */,
 				D1FC06411325D2B500863FE2 /* Medicine.h */,
@@ -564,6 +565,7 @@
 				D1FF462213625368002E9BD3 /* ExerciseAddViewController.m in Sources */,
 				D1FF4629136257B9002E9BD3 /* BloodGlucoseAddViewController.m in Sources */,
 				D1FF4630136257D1002E9BD3 /* BloodPressureAddViewController.m in Sources */,
+				D13D308613AD4E2B0041ECAC /* Goal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
