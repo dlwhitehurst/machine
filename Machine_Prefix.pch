@@ -1,0 +1,18 @@
+/*********************************************************************
+ File: Machine_Prefix.pch
+ 
+ Abstract: Prefix Header for all header files for the Machine Project.  
+ 
+ Version: 1.0
+ Author: David L. Whitehurst
+ Created: March 13, 2011
+ 
+ Copyright (C) 2010 David L. Whitehurst. All Rights Reserved.
+ 
+ ********************************************************************/
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

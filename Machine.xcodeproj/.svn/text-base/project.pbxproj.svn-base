@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PunchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PunchAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2804200B108E984D000629CD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28042008108E984D000629CD /* RootViewController.m */; };
+		280420C1108EA07E000629CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280420C0108EA07E000629CD /* CoreData.framework */; };
+		2819300E112F7FA900ECF9B4 /* Machine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819300D112F7FA900ECF9B4 /* Machine.xcdatamodeld */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		D107EDA3138DD861003800DE /* DummyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D107EDA2138DD861003800DE /* DummyTest.m */; };
+		D117079E1308BCFD00144E07 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = D11707991308BCFD00144E07 /* Default-Landscape.png */; };
+		D117079F1308BCFD00144E07 /* Default-LandscapeLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = D117079A1308BCFD00144E07 /* Default-LandscapeLeft.png */; };
+		D11707A01308BCFD00144E07 /* Default-LandscapeRight.png in Resources */ = {isa = PBXBuildFile; fileRef = D117079B1308BCFD00144E07 /* Default-LandscapeRight.png */; };
+		D11707A11308BCFD00144E07 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = D117079C1308BCFD00144E07 /* Default-Portrait.png */; };
+		D11707A21308BCFD00144E07 /* Default-PortraitUpsideDown.png in Resources */ = {isa = PBXBuildFile; fileRef = D117079D1308BCFD00144E07 /* Default-PortraitUpsideDown.png */; };
+		D15F8487132DC3B4003BC3E5 /* GoalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */; };
+		D15F8488132DC3B4003BC3E5 /* GoalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */; };
+		D15F848E132DC3D9003BC3E5 /* VitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */; };
+		D15F848F132DC3D9003BC3E5 /* VitalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F848D132DC3D9003BC3E5 /* VitalDetailView.xib */; };
+		D15F8495132DC3FC003BC3E5 /* MedicineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8493132DC3FC003BC3E5 /* MedicineDetailViewController.m */; };
+		D15F8496132DC3FC003BC3E5 /* MedicineDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8494132DC3FC003BC3E5 /* MedicineDetailView.xib */; };
+		D15F849C132DC40C003BC3E5 /* MealDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F849A132DC40C003BC3E5 /* MealDetailViewController.m */; };
+		D15F849D132DC40C003BC3E5 /* MealDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F849B132DC40C003BC3E5 /* MealDetailView.xib */; };
+		D15F84A3132DC41D003BC3E5 /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F84A1132DC41D003BC3E5 /* ExerciseDetailViewController.m */; };
+		D15F84A4132DC41D003BC3E5 /* ExerciseDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F84A2132DC41D003BC3E5 /* ExerciseDetailView.xib */; };
+		D162A59A131741E500D6B1EC /* array.plist in Resources */ = {isa = PBXBuildFile; fileRef = D162A598131741E500D6B1EC /* array.plist */; };
+		D162A59B131741E500D6B1EC /* subarray.plist in Resources */ = {isa = PBXBuildFile; fileRef = D162A599131741E500D6B1EC /* subarray.plist */; };
+		D162A6C21319F80E00D6B1EC /* 77-ekg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D162A6C01319F80E00D6B1EC /* 77-ekg@2x.png */; };
+		D162A6C31319F80E00D6B1EC /* 85-trophy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D162A6C11319F80E00D6B1EC /* 85-trophy@2x.png */; };
+		D162A6CB1319F8C200D6B1EC /* 79-medical-bag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D162A6CA1319F8C200D6B1EC /* 79-medical-bag@2x.png */; };
+		D162A6DF1319F9C100D6B1EC /* 63-runner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D162A6DE1319F9C100D6B1EC /* 63-runner@2x.png */; };
+		D162A719131A03CC00D6B1EC /* 48-fork-and-knife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D162A718131A03CC00D6B1EC /* 48-fork-and-knife@2x.png */; };
+		D19EBAB112FE5C1B002763E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19EBAB012FE5C1B002763E4 /* RootViewController.xib */; };
+		D19EBB3012FF7434002763E4 /* ContextController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EBB2F12FF7434002763E4 /* ContextController.m */; };
+		D19EBB3D12FF7514002763E4 /* ContextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19EBB3C12FF7514002763E4 /* ContextController.xib */; };
+		D1FC01A0131B48FA00863FE2 /* GoalRec.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC019D131B48FA00863FE2 /* GoalRec.m */; };
+		D1FC01A1131B48FA00863FE2 /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC019F131B48FA00863FE2 /* Goal.m */; };
+		D1FC064F1325D2B500863FE2 /* RxItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06381325D2B500863FE2 /* RxItem.m */; };
+		D1FC06501325D2B500863FE2 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC063A1325D2B500863FE2 /* Exercise.m */; };
+		D1FC06511325D2B500863FE2 /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC063C1325D2B500863FE2 /* Weight.m */; };
+		D1FC06521325D2B500863FE2 /* Vital.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC063E1325D2B500863FE2 /* Vital.m */; };
+		D1FC06531325D2B500863FE2 /* BloodPressureDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06401325D2B500863FE2 /* BloodPressureDay.m */; };
+		D1FC06541325D2B500863FE2 /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06421325D2B500863FE2 /* Medicine.m */; };
+		D1FC06551325D2B500863FE2 /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06441325D2B500863FE2 /* FoodItem.m */; };
+		D1FC06561325D2B500863FE2 /* BloodPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06461325D2B500863FE2 /* BloodPressure.m */; };
+		D1FC06571325D2B500863FE2 /* ExerciseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06481325D2B500863FE2 /* ExerciseItem.m */; };
+		D1FC06581325D2B500863FE2 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC064A1325D2B500863FE2 /* Meal.m */; };
+		D1FC06591325D2B500863FE2 /* BloodGlucose.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC064C1325D2B500863FE2 /* BloodGlucose.m */; };
+		D1FC065A1325D2B500863FE2 /* BloodGlucoseDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC064E1325D2B500863FE2 /* BloodGlucoseDay.m */; };
+		D1FC08BF1329368500863FE2 /* gear-ipad-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FC08BE1329368500863FE2 /* gear-ipad-icon.png */; };
+		D1FF40951348E70C002E9BD3 /* GoalAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF40921348E70C002E9BD3 /* GoalAddView.xib */; };
+		D1FF40961348E70C002E9BD3 /* GoalAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF40941348E70C002E9BD3 /* GoalAddViewController.m */; };
+		D1FF46141362530B002E9BD3 /* MedicineAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */; };
+		D1FF46151362530B002E9BD3 /* MedicineAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF46131362530B002E9BD3 /* MedicineAddView.xib */; };
+		D1FF461B13625324002E9BD3 /* MealAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF461913625324002E9BD3 /* MealAddViewController.m */; };
+		D1FF461C13625324002E9BD3 /* MealAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF461A13625324002E9BD3 /* MealAddView.xib */; };
+		D1FF462213625368002E9BD3 /* ExerciseAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */; };
+		D1FF462313625368002E9BD3 /* ExerciseAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF462113625368002E9BD3 /* ExerciseAddView.xib */; };
+		D1FF4629136257B9002E9BD3 /* BloodGlucoseAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF4627136257B9002E9BD3 /* BloodGlucoseAddViewController.m */; };
+		D1FF462A136257B9002E9BD3 /* BloodGlucoseAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */; };
+		D1FF4630136257D1002E9BD3 /* BloodPressureAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF462E136257D1002E9BD3 /* BloodPressureAddViewController.m */; };
+		D1FF4631136257D1002E9BD3 /* BloodPressureAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D107EDB0138DDD0B003800DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
+			remoteInfo = Machine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PunchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PunchAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PunchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PunchAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28042007108E984D000629CD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28042008108E984D000629CD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		280420B3108E9F58000629CD /* Machine.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Machine.xcdatamodel; sourceTree = "<group>"; };
+		280420C0108EA07E000629CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Machine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Machine_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Machine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Machine-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D107ED7C138B4668003800DE /* TestBundle.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBundle.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D107ED7D138B4668003800DE /* TestBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestBundle-Info.plist"; sourceTree = "<group>"; };
+		D107EDA1138DD861003800DE /* DummyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyTest.h; sourceTree = "<group>"; };
+		D107EDA2138DD861003800DE /* DummyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyTest.m; sourceTree = "<group>"; };
+		D11707991308BCFD00144E07 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		D117079A1308BCFD00144E07 /* Default-LandscapeLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeLeft.png"; sourceTree = "<group>"; };
+		D117079B1308BCFD00144E07 /* Default-LandscapeRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeRight.png"; sourceTree = "<group>"; };
+		D117079C1308BCFD00144E07 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		D117079D1308BCFD00144E07 /* Default-PortraitUpsideDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-PortraitUpsideDown.png"; sourceTree = "<group>"; };
+		D15F8484132DC3B4003BC3E5 /* GoalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalDetailViewController.h; path = ../GoalDetailViewController.h; sourceTree = "<group>"; };
+		D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalDetailViewController.m; path = ../GoalDetailViewController.m; sourceTree = "<group>"; };
+		D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalDetailView.xib; sourceTree = "<group>"; };
+		D15F848B132DC3D9003BC3E5 /* VitalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VitalDetailViewController.h; path = ../VitalDetailViewController.h; sourceTree = "<group>"; };
+		D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VitalDetailViewController.m; path = ../VitalDetailViewController.m; sourceTree = "<group>"; };
+		D15F848D132DC3D9003BC3E5 /* VitalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VitalDetailView.xib; sourceTree = "<group>"; };
+		D15F8492132DC3FC003BC3E5 /* MedicineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicineDetailViewController.h; path = ../MedicineDetailViewController.h; sourceTree = "<group>"; };
+		D15F8493132DC3FC003BC3E5 /* MedicineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicineDetailViewController.m; path = ../MedicineDetailViewController.m; sourceTree = "<group>"; };
+		D15F8494132DC3FC003BC3E5 /* MedicineDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicineDetailView.xib; sourceTree = "<group>"; };
+		D15F8499132DC40C003BC3E5 /* MealDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealDetailViewController.h; path = ../MealDetailViewController.h; sourceTree = "<group>"; };
+		D15F849A132DC40C003BC3E5 /* MealDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealDetailViewController.m; path = ../MealDetailViewController.m; sourceTree = "<group>"; };
+		D15F849B132DC40C003BC3E5 /* MealDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealDetailView.xib; sourceTree = "<group>"; };
+		D15F84A0132DC41D003BC3E5 /* ExerciseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseDetailViewController.h; path = ../ExerciseDetailViewController.h; sourceTree = "<group>"; };
+		D15F84A1132DC41D003BC3E5 /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseDetailViewController.m; path = ../ExerciseDetailViewController.m; sourceTree = "<group>"; };
+		D15F84A2132DC41D003BC3E5 /* ExerciseDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDetailView.xib; sourceTree = "<group>"; };
+		D162A598131741E500D6B1EC /* array.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = array.plist; sourceTree = "<group>"; };
+		D162A599131741E500D6B1EC /* subarray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = subarray.plist; sourceTree = "<group>"; };
+		D162A6C01319F80E00D6B1EC /* 77-ekg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "77-ekg@2x.png"; sourceTree = "<group>"; };
+		D162A6C11319F80E00D6B1EC /* 85-trophy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy@2x.png"; sourceTree = "<group>"; };
+		D162A6CA1319F8C200D6B1EC /* 79-medical-bag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "79-medical-bag@2x.png"; sourceTree = "<group>"; };
+		D162A6DE1319F9C100D6B1EC /* 63-runner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-runner@2x.png"; sourceTree = "<group>"; };
+		D162A718131A03CC00D6B1EC /* 48-fork-and-knife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife@2x.png"; sourceTree = "<group>"; };
+		D19EBAB012FE5C1B002763E4 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		D19EBB2E12FF7434002763E4 /* ContextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextController.h; sourceTree = "<group>"; };
+		D19EBB2F12FF7434002763E4 /* ContextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextController.m; sourceTree = "<group>"; };
+		D19EBB3C12FF7514002763E4 /* ContextController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContextController.xib; sourceTree = "<group>"; };
+		D1FC019C131B48FA00863FE2 /* GoalRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalRec.h; path = Classes/GoalRec.h; sourceTree = "<group>"; };
+		D1FC019D131B48FA00863FE2 /* GoalRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalRec.m; path = Classes/GoalRec.m; sourceTree = "<group>"; };
+		D1FC019E131B48FA00863FE2 /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Goal.h; path = Classes/Goal.h; sourceTree = "<group>"; };
+		D1FC019F131B48FA00863FE2 /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Goal.m; path = Classes/Goal.m; sourceTree = "<group>"; };
+		D1FC06371325D2B500863FE2 /* RxItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxItem.h; sourceTree = "<group>"; };
+		D1FC06381325D2B500863FE2 /* RxItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxItem.m; sourceTree = "<group>"; };
+		D1FC06391325D2B500863FE2 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
+		D1FC063A1325D2B500863FE2 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		D1FC063B1325D2B500863FE2 /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight.h; sourceTree = "<group>"; };
+		D1FC063C1325D2B500863FE2 /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight.m; sourceTree = "<group>"; };
+		D1FC063D1325D2B500863FE2 /* Vital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vital.h; sourceTree = "<group>"; };
+		D1FC063E1325D2B500863FE2 /* Vital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vital.m; sourceTree = "<group>"; };
+		D1FC063F1325D2B500863FE2 /* BloodPressureDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureDay.h; sourceTree = "<group>"; };
+		D1FC06401325D2B500863FE2 /* BloodPressureDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureDay.m; sourceTree = "<group>"; };
+		D1FC06411325D2B500863FE2 /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
+		D1FC06421325D2B500863FE2 /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
+		D1FC06431325D2B500863FE2 /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
+		D1FC06441325D2B500863FE2 /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
+		D1FC06451325D2B500863FE2 /* BloodPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressure.h; sourceTree = "<group>"; };
+		D1FC06461325D2B500863FE2 /* BloodPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressure.m; sourceTree = "<group>"; };
+		D1FC06471325D2B500863FE2 /* ExerciseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseItem.h; sourceTree = "<group>"; };
+		D1FC06481325D2B500863FE2 /* ExerciseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseItem.m; sourceTree = "<group>"; };
+		D1FC06491325D2B500863FE2 /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		D1FC064A1325D2B500863FE2 /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		D1FC064B1325D2B500863FE2 /* BloodGlucose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucose.h; sourceTree = "<group>"; };
+		D1FC064C1325D2B500863FE2 /* BloodGlucose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucose.m; sourceTree = "<group>"; };
+		D1FC064D1325D2B500863FE2 /* BloodGlucoseDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseDay.h; sourceTree = "<group>"; };
+		D1FC064E1325D2B500863FE2 /* BloodGlucoseDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseDay.m; sourceTree = "<group>"; };
+		D1FC08BE1329368500863FE2 /* gear-ipad-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-ipad-icon.png"; sourceTree = "<group>"; };
+		D1FF40921348E70C002E9BD3 /* GoalAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalAddView.xib; sourceTree = "<group>"; };
+		D1FF40931348E70C002E9BD3 /* GoalAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalAddViewController.h; path = ../GoalAddViewController.h; sourceTree = "<group>"; };
+		D1FF40941348E70C002E9BD3 /* GoalAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalAddViewController.m; path = ../GoalAddViewController.m; sourceTree = "<group>"; };
+		D1FF46111362530B002E9BD3 /* MedicineAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineAddViewController.h; sourceTree = "<group>"; };
+		D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineAddViewController.m; sourceTree = "<group>"; };
+		D1FF46131362530B002E9BD3 /* MedicineAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MedicineAddView.xib; path = Classes/MedicineAddView.xib; sourceTree = "<group>"; };
+		D1FF461813625324002E9BD3 /* MealAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealAddViewController.h; sourceTree = "<group>"; };
+		D1FF461913625324002E9BD3 /* MealAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealAddViewController.m; sourceTree = "<group>"; };
+		D1FF461A13625324002E9BD3 /* MealAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MealAddView.xib; path = Classes/MealAddView.xib; sourceTree = "<group>"; };
+		D1FF461F13625368002E9BD3 /* ExerciseAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseAddViewController.h; sourceTree = "<group>"; };
+		D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseAddViewController.m; sourceTree = "<group>"; };
+		D1FF462113625368002E9BD3 /* ExerciseAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExerciseAddView.xib; path = Classes/ExerciseAddView.xib; sourceTree = "<group>"; };
+		D1FF4626136257B9002E9BD3 /* BloodGlucoseAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodGlucoseAddViewController.h; path = ../BloodGlucoseAddViewController.h; sourceTree = "<group>"; };
+		D1FF4627136257B9002E9BD3 /* BloodGlucoseAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BloodGlucoseAddViewController.m; path = ../BloodGlucoseAddViewController.m; sourceTree = "<group>"; };
+		D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodGlucoseAddView.xib; sourceTree = "<group>"; };
+		D1FF462D136257D1002E9BD3 /* BloodPressureAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodPressureAddViewController.h; path = ../BloodPressureAddViewController.h; sourceTree = "<group>"; };
+		D1FF462E136257D1002E9BD3 /* BloodPressureAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BloodPressureAddViewController.m; path = ../BloodPressureAddViewController.m; sourceTree = "<group>"; };
+		D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodPressureAddView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				280420C1108EA07E000629CD /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ED79138B4668003800DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF46111362530B002E9BD3 /* MedicineAddViewController.h */,
+				D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */,
+				D1FF461813625324002E9BD3 /* MealAddViewController.h */,
+				D1FF461913625324002E9BD3 /* MealAddViewController.m */,
+				D1FF4626136257B9002E9BD3 /* BloodGlucoseAddViewController.h */,
+				D1FF4627136257B9002E9BD3 /* BloodGlucoseAddViewController.m */,
+				D1FF462D136257D1002E9BD3 /* BloodPressureAddViewController.h */,
+				D1FF462E136257D1002E9BD3 /* BloodPressureAddViewController.m */,
+				D1FF461F13625368002E9BD3 /* ExerciseAddViewController.h */,
+				D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */,
+				D1FF40931348E70C002E9BD3 /* GoalAddViewController.h */,
+				D1FF40941348E70C002E9BD3 /* GoalAddViewController.m */,
+				D15F8484132DC3B4003BC3E5 /* GoalDetailViewController.h */,
+				D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */,
+				D15F848B132DC3D9003BC3E5 /* VitalDetailViewController.h */,
+				D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */,
+				D15F8492132DC3FC003BC3E5 /* MedicineDetailViewController.h */,
+				D15F8493132DC3FC003BC3E5 /* MedicineDetailViewController.m */,
+				D15F8499132DC40C003BC3E5 /* MealDetailViewController.h */,
+				D15F849A132DC40C003BC3E5 /* MealDetailViewController.m */,
+				D15F84A0132DC41D003BC3E5 /* ExerciseDetailViewController.h */,
+				D15F84A1132DC41D003BC3E5 /* ExerciseDetailViewController.m */,
+				D19EBB2E12FF7434002763E4 /* ContextController.h */,
+				D19EBB2F12FF7434002763E4 /* ContextController.m */,
+				1D3623240D0F684500981E51 /* PunchAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PunchAppDelegate.m */,
+				28042007108E984D000629CD /* RootViewController.h */,
+				28042008108E984D000629CD /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Machine.app */,
+				D107ED7C138B4668003800DE /* TestBundle.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D107ECEB1389FA05003800DE /* TestCases */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				D107ED7D138B4668003800DE /* TestBundle-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D1FC063F1325D2B500863FE2 /* BloodPressureDay.h */,
+				D1FC06401325D2B500863FE2 /* BloodPressureDay.m */,
+				D1FC06411325D2B500863FE2 /* Medicine.h */,
+				D1FC06371325D2B500863FE2 /* RxItem.h */,
+				D1FC06381325D2B500863FE2 /* RxItem.m */,
+				D1FC06421325D2B500863FE2 /* Medicine.m */,
+				D1FC06431325D2B500863FE2 /* FoodItem.h */,
+				D1FC06441325D2B500863FE2 /* FoodItem.m */,
+				D1FC06451325D2B500863FE2 /* BloodPressure.h */,
+				D1FC06461325D2B500863FE2 /* BloodPressure.m */,
+				D1FC06471325D2B500863FE2 /* ExerciseItem.h */,
+				D1FC06481325D2B500863FE2 /* ExerciseItem.m */,
+				D1FC06491325D2B500863FE2 /* Meal.h */,
+				D1FC064A1325D2B500863FE2 /* Meal.m */,
+				D1FC064B1325D2B500863FE2 /* BloodGlucose.h */,
+				D1FC064C1325D2B500863FE2 /* BloodGlucose.m */,
+				D1FC064D1325D2B500863FE2 /* BloodGlucoseDay.h */,
+				D1FC064E1325D2B500863FE2 /* BloodGlucoseDay.m */,
+				D1FC06391325D2B500863FE2 /* Exercise.h */,
+				D1FC063A1325D2B500863FE2 /* Exercise.m */,
+				D1FC063B1325D2B500863FE2 /* Weight.h */,
+				D1FC063C1325D2B500863FE2 /* Weight.m */,
+				D1FC063D1325D2B500863FE2 /* Vital.h */,
+				D1FC063E1325D2B500863FE2 /* Vital.m */,
+				D1FC019C131B48FA00863FE2 /* GoalRec.h */,
+				D1FC019D131B48FA00863FE2 /* GoalRec.m */,
+				D1FC019E131B48FA00863FE2 /* Goal.h */,
+				D1FC019F131B48FA00863FE2 /* Goal.m */,
+				28A0AAE50D9B0CCF005BE974 /* Machine_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */,
+				D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */,
+				D1FF462113625368002E9BD3 /* ExerciseAddView.xib */,
+				D1FF461A13625324002E9BD3 /* MealAddView.xib */,
+				D1FF46131362530B002E9BD3 /* MedicineAddView.xib */,
+				D1FF40921348E70C002E9BD3 /* GoalAddView.xib */,
+				D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */,
+				D15F84A2132DC41D003BC3E5 /* ExerciseDetailView.xib */,
+				D15F849B132DC40C003BC3E5 /* MealDetailView.xib */,
+				D15F8494132DC3FC003BC3E5 /* MedicineDetailView.xib */,
+				D15F848D132DC3D9003BC3E5 /* VitalDetailView.xib */,
+				D1FC08BE1329368500863FE2 /* gear-ipad-icon.png */,
+				D162A718131A03CC00D6B1EC /* 48-fork-and-knife@2x.png */,
+				D162A6DE1319F9C100D6B1EC /* 63-runner@2x.png */,
+				D162A6CA1319F8C200D6B1EC /* 79-medical-bag@2x.png */,
+				D162A6C01319F80E00D6B1EC /* 77-ekg@2x.png */,
+				D162A6C11319F80E00D6B1EC /* 85-trophy@2x.png */,
+				D162A598131741E500D6B1EC /* array.plist */,
+				D162A599131741E500D6B1EC /* subarray.plist */,
+				D19EBB3C12FF7514002763E4 /* ContextController.xib */,
+				D19EBAB012FE5C1B002763E4 /* RootViewController.xib */,
+				2819300D112F7FA900ECF9B4 /* Machine.xcdatamodeld */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Machine-Info.plist */,
+				D11707991308BCFD00144E07 /* Default-Landscape.png */,
+				D117079A1308BCFD00144E07 /* Default-LandscapeLeft.png */,
+				D117079B1308BCFD00144E07 /* Default-LandscapeRight.png */,
+				D117079C1308BCFD00144E07 /* Default-Portrait.png */,
+				D117079D1308BCFD00144E07 /* Default-PortraitUpsideDown.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				280420C0108EA07E000629CD /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D107ECEB1389FA05003800DE /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				D107EDA1138DD861003800DE /* DummyTest.h */,
+				D107EDA2138DD861003800DE /* DummyTest.m */,
+			);
+			name = TestCases;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Machine" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Machine;
+			productName = Punch;
+			productReference = 1D6058910D05DD3D006BFB54 /* Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D107ED7B138B4668003800DE /* TestBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D107ED80138B4668003800DE /* Build configuration list for PBXNativeTarget "TestBundle" */;
+			buildPhases = (
+				D107ED77138B4668003800DE /* Resources */,
+				D107ED78138B4668003800DE /* Sources */,
+				D107ED79138B4668003800DE /* Frameworks */,
+				D107ED7A138B4668003800DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D107EDB1138DDD0B003800DE /* PBXTargetDependency */,
+			);
+			name = TestBundle;
+			productName = TestBundle;
+			productReference = D107ED7C138B4668003800DE /* TestBundle.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Machine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Machine */,
+				D107ED7B138B4668003800DE /* TestBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				D19EBAB112FE5C1B002763E4 /* RootViewController.xib in Resources */,
+				D19EBB3D12FF7514002763E4 /* ContextController.xib in Resources */,
+				D117079E1308BCFD00144E07 /* Default-Landscape.png in Resources */,
+				D117079F1308BCFD00144E07 /* Default-LandscapeLeft.png in Resources */,
+				D11707A01308BCFD00144E07 /* Default-LandscapeRight.png in Resources */,
+				D11707A11308BCFD00144E07 /* Default-Portrait.png in Resources */,
+				D11707A21308BCFD00144E07 /* Default-PortraitUpsideDown.png in Resources */,
+				D162A59A131741E500D6B1EC /* array.plist in Resources */,
+				D162A59B131741E500D6B1EC /* subarray.plist in Resources */,
+				D162A6C21319F80E00D6B1EC /* 77-ekg@2x.png in Resources */,
+				D162A6C31319F80E00D6B1EC /* 85-trophy@2x.png in Resources */,
+				D162A6CB1319F8C200D6B1EC /* 79-medical-bag@2x.png in Resources */,
+				D162A6DF1319F9C100D6B1EC /* 63-runner@2x.png in Resources */,
+				D162A719131A03CC00D6B1EC /* 48-fork-and-knife@2x.png in Resources */,
+				D1FC08BF1329368500863FE2 /* gear-ipad-icon.png in Resources */,
+				D15F8488132DC3B4003BC3E5 /* GoalDetailView.xib in Resources */,
+				D15F848F132DC3D9003BC3E5 /* VitalDetailView.xib in Resources */,
+				D15F8496132DC3FC003BC3E5 /* MedicineDetailView.xib in Resources */,
+				D15F849D132DC40C003BC3E5 /* MealDetailView.xib in Resources */,
+				D15F84A4132DC41D003BC3E5 /* ExerciseDetailView.xib in Resources */,
+				D1FF40951348E70C002E9BD3 /* GoalAddView.xib in Resources */,
+				D1FF46151362530B002E9BD3 /* MedicineAddView.xib in Resources */,
+				D1FF461C13625324002E9BD3 /* MealAddView.xib in Resources */,
+				D1FF462313625368002E9BD3 /* ExerciseAddView.xib in Resources */,
+				D1FF462A136257B9002E9BD3 /* BloodGlucoseAddView.xib in Resources */,
+				D1FF4631136257D1002E9BD3 /* BloodPressureAddView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ED77138B4668003800DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D107ED7A138B4668003800DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PunchAppDelegate.m in Sources */,
+				2804200B108E984D000629CD /* RootViewController.m in Sources */,
+				2819300E112F7FA900ECF9B4 /* Machine.xcdatamodeld in Sources */,
+				D19EBB3012FF7434002763E4 /* ContextController.m in Sources */,
+				D1FC01A0131B48FA00863FE2 /* GoalRec.m in Sources */,
+				D1FC01A1131B48FA00863FE2 /* Goal.m in Sources */,
+				D1FC064F1325D2B500863FE2 /* RxItem.m in Sources */,
+				D1FC06501325D2B500863FE2 /* Exercise.m in Sources */,
+				D1FC06511325D2B500863FE2 /* Weight.m in Sources */,
+				D1FC06521325D2B500863FE2 /* Vital.m in Sources */,
+				D1FC06531325D2B500863FE2 /* BloodPressureDay.m in Sources */,
+				D1FC06541325D2B500863FE2 /* Medicine.m in Sources */,
+				D1FC06551325D2B500863FE2 /* FoodItem.m in Sources */,
+				D1FC06561325D2B500863FE2 /* BloodPressure.m in Sources */,
+				D1FC06571325D2B500863FE2 /* ExerciseItem.m in Sources */,
+				D1FC06581325D2B500863FE2 /* Meal.m in Sources */,
+				D1FC06591325D2B500863FE2 /* BloodGlucose.m in Sources */,
+				D1FC065A1325D2B500863FE2 /* BloodGlucoseDay.m in Sources */,
+				D15F8487132DC3B4003BC3E5 /* GoalDetailViewController.m in Sources */,
+				D15F848E132DC3D9003BC3E5 /* VitalDetailViewController.m in Sources */,
+				D15F8495132DC3FC003BC3E5 /* MedicineDetailViewController.m in Sources */,
+				D15F849C132DC40C003BC3E5 /* MealDetailViewController.m in Sources */,
+				D15F84A3132DC41D003BC3E5 /* ExerciseDetailViewController.m in Sources */,
+				D1FF40961348E70C002E9BD3 /* GoalAddViewController.m in Sources */,
+				D1FF46141362530B002E9BD3 /* MedicineAddViewController.m in Sources */,
+				D1FF461B13625324002E9BD3 /* MealAddViewController.m in Sources */,
+				D1FF462213625368002E9BD3 /* ExerciseAddViewController.m in Sources */,
+				D1FF4629136257B9002E9BD3 /* BloodGlucoseAddViewController.m in Sources */,
+				D1FF4630136257D1002E9BD3 /* BloodPressureAddViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D107ED78138B4668003800DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D107EDA3138DD861003800DE /* DummyTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D107EDB1138DDD0B003800DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6058900D05DD3D006BFB54 /* Machine */;
+			targetProxy = D107EDB0138DDD0B003800DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Machine_Prefix.pch;
+				INFOPLIST_FILE = "Machine-Info.plist";
+				PRODUCT_NAME = Machine;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Machine_Prefix.pch;
+				INFOPLIST_FILE = "Machine-Info.plist";
+				PRODUCT_NAME = Machine;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D107ED7E138B4668003800DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "TestBundle-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestBundle;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D107ED7F138B4668003800DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "TestBundle-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestBundle;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D107ED80138B4668003800DE /* Build configuration list for PBXNativeTarget "TestBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D107ED7E138B4668003800DE /* Debug */,
+				D107ED7F138B4668003800DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819300D112F7FA900ECF9B4 /* Machine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				280420B3108E9F58000629CD /* Machine.xcdatamodel */,
+			);
+			currentVersion = 280420B3108E9F58000629CD /* Machine.xcdatamodel */;
+			name = Machine.xcdatamodeld;
+			path = Punch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
