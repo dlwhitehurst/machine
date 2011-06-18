@@ -35,15 +35,31 @@
 		D13D307B13AD0B7F0041ECAC /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13D307A13AD0B7F0041ECAC /* GHUnitIOS.framework */; };
 		D13D308313AD23F80041ECAC /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308213AD23F80041ECAC /* SampleTests.m */; };
 		D13D308613AD4E2B0041ECAC /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308513AD4E2B0041ECAC /* Goal.m */; };
-		D15F8487132DC3B4003BC3E5 /* GoalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */; };
+		D13D30B113AD4FE10041ECAC /* BloodGlucose.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308813AD4FE00041ECAC /* BloodGlucose.m */; };
+		D13D30B213AD4FE10041ECAC /* BloodGlucoseAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308A13AD4FE00041ECAC /* BloodGlucoseAddViewController.m */; };
+		D13D30B313AD4FE10041ECAC /* BloodGlucoseDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308C13AD4FE00041ECAC /* BloodGlucoseDay.m */; };
+		D13D30B413AD4FE10041ECAC /* BloodPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308E13AD4FE00041ECAC /* BloodPressure.m */; };
+		D13D30B513AD4FE10041ECAC /* BloodPressureAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309013AD4FE00041ECAC /* BloodPressureAddViewController.m */; };
+		D13D30B613AD4FE10041ECAC /* BloodPressureDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309213AD4FE00041ECAC /* BloodPressureDay.m */; };
+		D13D30B713AD4FE10041ECAC /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309413AD4FE00041ECAC /* Exercise.m */; };
+		D13D30B813AD4FE10041ECAC /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309613AD4FE00041ECAC /* ExerciseDetailViewController.m */; };
+		D13D30B913AD4FE10041ECAC /* ExerciseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309813AD4FE00041ECAC /* ExerciseItem.m */; };
+		D13D30BA13AD4FE10041ECAC /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309A13AD4FE00041ECAC /* FoodItem.m */; };
+		D13D30BB13AD4FE10041ECAC /* GoalAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309C13AD4FE00041ECAC /* GoalAddViewController.m */; };
+		D13D30BC13AD4FE10041ECAC /* GoalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D309E13AD4FE00041ECAC /* GoalDetailViewController.m */; };
+		D13D30BD13AD4FE10041ECAC /* GoalRec.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30A013AD4FE00041ECAC /* GoalRec.m */; };
+		D13D30BE13AD4FE10041ECAC /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30A213AD4FE00041ECAC /* Meal.m */; };
+		D13D30BF13AD4FE10041ECAC /* MealDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30A413AD4FE00041ECAC /* MealDetailViewController.m */; };
+		D13D30C013AD4FE10041ECAC /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30A613AD4FE00041ECAC /* Medicine.m */; };
+		D13D30C113AD4FE10041ECAC /* MedicineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30A813AD4FE00041ECAC /* MedicineDetailViewController.m */; };
+		D13D30C213AD4FE10041ECAC /* RxItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30AA13AD4FE00041ECAC /* RxItem.m */; };
+		D13D30C313AD4FE10041ECAC /* Vital.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30AC13AD4FE00041ECAC /* Vital.m */; };
+		D13D30C413AD4FE10041ECAC /* VitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30AE13AD4FE00041ECAC /* VitalDetailViewController.m */; };
+		D13D30C513AD4FE10041ECAC /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30B013AD4FE10041ECAC /* Weight.m */; };
 		D15F8488132DC3B4003BC3E5 /* GoalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */; };
-		D15F848E132DC3D9003BC3E5 /* VitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */; };
 		D15F848F132DC3D9003BC3E5 /* VitalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F848D132DC3D9003BC3E5 /* VitalDetailView.xib */; };
-		D15F8495132DC3FC003BC3E5 /* MedicineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8493132DC3FC003BC3E5 /* MedicineDetailViewController.m */; };
 		D15F8496132DC3FC003BC3E5 /* MedicineDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8494132DC3FC003BC3E5 /* MedicineDetailView.xib */; };
-		D15F849C132DC40C003BC3E5 /* MealDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F849A132DC40C003BC3E5 /* MealDetailViewController.m */; };
 		D15F849D132DC40C003BC3E5 /* MealDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F849B132DC40C003BC3E5 /* MealDetailView.xib */; };
-		D15F84A3132DC41D003BC3E5 /* ExerciseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F84A1132DC41D003BC3E5 /* ExerciseDetailViewController.m */; };
 		D15F84A4132DC41D003BC3E5 /* ExerciseDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F84A2132DC41D003BC3E5 /* ExerciseDetailView.xib */; };
 		D162A59A131741E500D6B1EC /* array.plist in Resources */ = {isa = PBXBuildFile; fileRef = D162A598131741E500D6B1EC /* array.plist */; };
 		D162A59B131741E500D6B1EC /* subarray.plist in Resources */ = {isa = PBXBuildFile; fileRef = D162A599131741E500D6B1EC /* subarray.plist */; };
@@ -55,31 +71,15 @@
 		D19EBAB112FE5C1B002763E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19EBAB012FE5C1B002763E4 /* RootViewController.xib */; };
 		D19EBB3012FF7434002763E4 /* ContextController.m in Sources */ = {isa = PBXBuildFile; fileRef = D19EBB2F12FF7434002763E4 /* ContextController.m */; };
 		D19EBB3D12FF7514002763E4 /* ContextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19EBB3C12FF7514002763E4 /* ContextController.xib */; };
-		D1FC01A0131B48FA00863FE2 /* GoalRec.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC019D131B48FA00863FE2 /* GoalRec.m */; };
-		D1FC064F1325D2B500863FE2 /* RxItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06381325D2B500863FE2 /* RxItem.m */; };
-		D1FC06501325D2B500863FE2 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC063A1325D2B500863FE2 /* Exercise.m */; };
-		D1FC06511325D2B500863FE2 /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC063C1325D2B500863FE2 /* Weight.m */; };
-		D1FC06521325D2B500863FE2 /* Vital.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC063E1325D2B500863FE2 /* Vital.m */; };
-		D1FC06531325D2B500863FE2 /* BloodPressureDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06401325D2B500863FE2 /* BloodPressureDay.m */; };
-		D1FC06541325D2B500863FE2 /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06421325D2B500863FE2 /* Medicine.m */; };
-		D1FC06551325D2B500863FE2 /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06441325D2B500863FE2 /* FoodItem.m */; };
-		D1FC06561325D2B500863FE2 /* BloodPressure.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06461325D2B500863FE2 /* BloodPressure.m */; };
-		D1FC06571325D2B500863FE2 /* ExerciseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC06481325D2B500863FE2 /* ExerciseItem.m */; };
-		D1FC06581325D2B500863FE2 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC064A1325D2B500863FE2 /* Meal.m */; };
-		D1FC06591325D2B500863FE2 /* BloodGlucose.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC064C1325D2B500863FE2 /* BloodGlucose.m */; };
-		D1FC065A1325D2B500863FE2 /* BloodGlucoseDay.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FC064E1325D2B500863FE2 /* BloodGlucoseDay.m */; };
 		D1FC08BF1329368500863FE2 /* gear-ipad-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FC08BE1329368500863FE2 /* gear-ipad-icon.png */; };
 		D1FF40951348E70C002E9BD3 /* GoalAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF40921348E70C002E9BD3 /* GoalAddView.xib */; };
-		D1FF40961348E70C002E9BD3 /* GoalAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF40941348E70C002E9BD3 /* GoalAddViewController.m */; };
 		D1FF46141362530B002E9BD3 /* MedicineAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */; };
 		D1FF46151362530B002E9BD3 /* MedicineAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF46131362530B002E9BD3 /* MedicineAddView.xib */; };
 		D1FF461B13625324002E9BD3 /* MealAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF461913625324002E9BD3 /* MealAddViewController.m */; };
 		D1FF461C13625324002E9BD3 /* MealAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF461A13625324002E9BD3 /* MealAddView.xib */; };
 		D1FF462213625368002E9BD3 /* ExerciseAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */; };
 		D1FF462313625368002E9BD3 /* ExerciseAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF462113625368002E9BD3 /* ExerciseAddView.xib */; };
-		D1FF4629136257B9002E9BD3 /* BloodGlucoseAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF4627136257B9002E9BD3 /* BloodGlucoseAddViewController.m */; };
 		D1FF462A136257B9002E9BD3 /* BloodGlucoseAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */; };
-		D1FF4630136257D1002E9BD3 /* BloodPressureAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF462E136257D1002E9BD3 /* BloodPressureAddViewController.m */; };
 		D1FF4631136257D1002E9BD3 /* BloodPressureAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */; };
 /* End PBXBuildFile section */
 
@@ -132,20 +132,52 @@
 		D13D308213AD23F80041ECAC /* SampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
 		D13D308413AD4E2B0041ECAC /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goal.h; sourceTree = "<group>"; };
 		D13D308513AD4E2B0041ECAC /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goal.m; sourceTree = "<group>"; };
-		D15F8484132DC3B4003BC3E5 /* GoalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalDetailViewController.h; path = ../GoalDetailViewController.h; sourceTree = "<group>"; };
-		D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalDetailViewController.m; path = ../GoalDetailViewController.m; sourceTree = "<group>"; };
+		D13D308713AD4FE00041ECAC /* BloodGlucose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucose.h; sourceTree = "<group>"; };
+		D13D308813AD4FE00041ECAC /* BloodGlucose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucose.m; sourceTree = "<group>"; };
+		D13D308913AD4FE00041ECAC /* BloodGlucoseAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseAddViewController.h; sourceTree = "<group>"; };
+		D13D308A13AD4FE00041ECAC /* BloodGlucoseAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseAddViewController.m; sourceTree = "<group>"; };
+		D13D308B13AD4FE00041ECAC /* BloodGlucoseDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseDay.h; sourceTree = "<group>"; };
+		D13D308C13AD4FE00041ECAC /* BloodGlucoseDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseDay.m; sourceTree = "<group>"; };
+		D13D308D13AD4FE00041ECAC /* BloodPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressure.h; sourceTree = "<group>"; };
+		D13D308E13AD4FE00041ECAC /* BloodPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressure.m; sourceTree = "<group>"; };
+		D13D308F13AD4FE00041ECAC /* BloodPressureAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureAddViewController.h; sourceTree = "<group>"; };
+		D13D309013AD4FE00041ECAC /* BloodPressureAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureAddViewController.m; sourceTree = "<group>"; };
+		D13D309113AD4FE00041ECAC /* BloodPressureDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureDay.h; sourceTree = "<group>"; };
+		D13D309213AD4FE00041ECAC /* BloodPressureDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureDay.m; sourceTree = "<group>"; };
+		D13D309313AD4FE00041ECAC /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
+		D13D309413AD4FE00041ECAC /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		D13D309513AD4FE00041ECAC /* ExerciseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDetailViewController.h; sourceTree = "<group>"; };
+		D13D309613AD4FE00041ECAC /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailViewController.m; sourceTree = "<group>"; };
+		D13D309713AD4FE00041ECAC /* ExerciseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseItem.h; sourceTree = "<group>"; };
+		D13D309813AD4FE00041ECAC /* ExerciseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseItem.m; sourceTree = "<group>"; };
+		D13D309913AD4FE00041ECAC /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
+		D13D309A13AD4FE00041ECAC /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
+		D13D309B13AD4FE00041ECAC /* GoalAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalAddViewController.h; sourceTree = "<group>"; };
+		D13D309C13AD4FE00041ECAC /* GoalAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalAddViewController.m; sourceTree = "<group>"; };
+		D13D309D13AD4FE00041ECAC /* GoalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalDetailViewController.h; sourceTree = "<group>"; };
+		D13D309E13AD4FE00041ECAC /* GoalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalDetailViewController.m; sourceTree = "<group>"; };
+		D13D309F13AD4FE00041ECAC /* GoalRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalRec.h; sourceTree = "<group>"; };
+		D13D30A013AD4FE00041ECAC /* GoalRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalRec.m; sourceTree = "<group>"; };
+		D13D30A113AD4FE00041ECAC /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		D13D30A213AD4FE00041ECAC /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		D13D30A313AD4FE00041ECAC /* MealDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealDetailViewController.h; sourceTree = "<group>"; };
+		D13D30A413AD4FE00041ECAC /* MealDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealDetailViewController.m; sourceTree = "<group>"; };
+		D13D30A513AD4FE00041ECAC /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
+		D13D30A613AD4FE00041ECAC /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
+		D13D30A713AD4FE00041ECAC /* MedicineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineDetailViewController.h; sourceTree = "<group>"; };
+		D13D30A813AD4FE00041ECAC /* MedicineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineDetailViewController.m; sourceTree = "<group>"; };
+		D13D30A913AD4FE00041ECAC /* RxItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxItem.h; sourceTree = "<group>"; };
+		D13D30AA13AD4FE00041ECAC /* RxItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxItem.m; sourceTree = "<group>"; };
+		D13D30AB13AD4FE00041ECAC /* Vital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vital.h; sourceTree = "<group>"; };
+		D13D30AC13AD4FE00041ECAC /* Vital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vital.m; sourceTree = "<group>"; };
+		D13D30AD13AD4FE00041ECAC /* VitalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VitalDetailViewController.h; sourceTree = "<group>"; };
+		D13D30AE13AD4FE00041ECAC /* VitalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VitalDetailViewController.m; sourceTree = "<group>"; };
+		D13D30AF13AD4FE10041ECAC /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight.h; sourceTree = "<group>"; };
+		D13D30B013AD4FE10041ECAC /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight.m; sourceTree = "<group>"; };
 		D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalDetailView.xib; sourceTree = "<group>"; };
-		D15F848B132DC3D9003BC3E5 /* VitalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VitalDetailViewController.h; path = ../VitalDetailViewController.h; sourceTree = "<group>"; };
-		D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VitalDetailViewController.m; path = ../VitalDetailViewController.m; sourceTree = "<group>"; };
 		D15F848D132DC3D9003BC3E5 /* VitalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VitalDetailView.xib; sourceTree = "<group>"; };
-		D15F8492132DC3FC003BC3E5 /* MedicineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicineDetailViewController.h; path = ../MedicineDetailViewController.h; sourceTree = "<group>"; };
-		D15F8493132DC3FC003BC3E5 /* MedicineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicineDetailViewController.m; path = ../MedicineDetailViewController.m; sourceTree = "<group>"; };
 		D15F8494132DC3FC003BC3E5 /* MedicineDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicineDetailView.xib; sourceTree = "<group>"; };
-		D15F8499132DC40C003BC3E5 /* MealDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MealDetailViewController.h; path = ../MealDetailViewController.h; sourceTree = "<group>"; };
-		D15F849A132DC40C003BC3E5 /* MealDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MealDetailViewController.m; path = ../MealDetailViewController.m; sourceTree = "<group>"; };
 		D15F849B132DC40C003BC3E5 /* MealDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealDetailView.xib; sourceTree = "<group>"; };
-		D15F84A0132DC41D003BC3E5 /* ExerciseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseDetailViewController.h; path = ../ExerciseDetailViewController.h; sourceTree = "<group>"; };
-		D15F84A1132DC41D003BC3E5 /* ExerciseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseDetailViewController.m; path = ../ExerciseDetailViewController.m; sourceTree = "<group>"; };
 		D15F84A2132DC41D003BC3E5 /* ExerciseDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDetailView.xib; sourceTree = "<group>"; };
 		D162A598131741E500D6B1EC /* array.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = array.plist; sourceTree = "<group>"; };
 		D162A599131741E500D6B1EC /* subarray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = subarray.plist; sourceTree = "<group>"; };
@@ -158,36 +190,8 @@
 		D19EBB2E12FF7434002763E4 /* ContextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextController.h; sourceTree = "<group>"; };
 		D19EBB2F12FF7434002763E4 /* ContextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextController.m; sourceTree = "<group>"; };
 		D19EBB3C12FF7514002763E4 /* ContextController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContextController.xib; sourceTree = "<group>"; };
-		D1FC019C131B48FA00863FE2 /* GoalRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalRec.h; path = Classes/GoalRec.h; sourceTree = "<group>"; };
-		D1FC019D131B48FA00863FE2 /* GoalRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalRec.m; path = Classes/GoalRec.m; sourceTree = "<group>"; };
-		D1FC06371325D2B500863FE2 /* RxItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxItem.h; sourceTree = "<group>"; };
-		D1FC06381325D2B500863FE2 /* RxItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxItem.m; sourceTree = "<group>"; };
-		D1FC06391325D2B500863FE2 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
-		D1FC063A1325D2B500863FE2 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
-		D1FC063B1325D2B500863FE2 /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight.h; sourceTree = "<group>"; };
-		D1FC063C1325D2B500863FE2 /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight.m; sourceTree = "<group>"; };
-		D1FC063D1325D2B500863FE2 /* Vital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vital.h; sourceTree = "<group>"; };
-		D1FC063E1325D2B500863FE2 /* Vital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vital.m; sourceTree = "<group>"; };
-		D1FC063F1325D2B500863FE2 /* BloodPressureDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressureDay.h; sourceTree = "<group>"; };
-		D1FC06401325D2B500863FE2 /* BloodPressureDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressureDay.m; sourceTree = "<group>"; };
-		D1FC06411325D2B500863FE2 /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
-		D1FC06421325D2B500863FE2 /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
-		D1FC06431325D2B500863FE2 /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
-		D1FC06441325D2B500863FE2 /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
-		D1FC06451325D2B500863FE2 /* BloodPressure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodPressure.h; sourceTree = "<group>"; };
-		D1FC06461325D2B500863FE2 /* BloodPressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodPressure.m; sourceTree = "<group>"; };
-		D1FC06471325D2B500863FE2 /* ExerciseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseItem.h; sourceTree = "<group>"; };
-		D1FC06481325D2B500863FE2 /* ExerciseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseItem.m; sourceTree = "<group>"; };
-		D1FC06491325D2B500863FE2 /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
-		D1FC064A1325D2B500863FE2 /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
-		D1FC064B1325D2B500863FE2 /* BloodGlucose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucose.h; sourceTree = "<group>"; };
-		D1FC064C1325D2B500863FE2 /* BloodGlucose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucose.m; sourceTree = "<group>"; };
-		D1FC064D1325D2B500863FE2 /* BloodGlucoseDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodGlucoseDay.h; sourceTree = "<group>"; };
-		D1FC064E1325D2B500863FE2 /* BloodGlucoseDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodGlucoseDay.m; sourceTree = "<group>"; };
 		D1FC08BE1329368500863FE2 /* gear-ipad-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-ipad-icon.png"; sourceTree = "<group>"; };
 		D1FF40921348E70C002E9BD3 /* GoalAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalAddView.xib; sourceTree = "<group>"; };
-		D1FF40931348E70C002E9BD3 /* GoalAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalAddViewController.h; path = ../GoalAddViewController.h; sourceTree = "<group>"; };
-		D1FF40941348E70C002E9BD3 /* GoalAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalAddViewController.m; path = ../GoalAddViewController.m; sourceTree = "<group>"; };
 		D1FF46111362530B002E9BD3 /* MedicineAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineAddViewController.h; sourceTree = "<group>"; };
 		D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineAddViewController.m; sourceTree = "<group>"; };
 		D1FF46131362530B002E9BD3 /* MedicineAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MedicineAddView.xib; path = Classes/MedicineAddView.xib; sourceTree = "<group>"; };
@@ -197,11 +201,7 @@
 		D1FF461F13625368002E9BD3 /* ExerciseAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseAddViewController.h; sourceTree = "<group>"; };
 		D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseAddViewController.m; sourceTree = "<group>"; };
 		D1FF462113625368002E9BD3 /* ExerciseAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExerciseAddView.xib; path = Classes/ExerciseAddView.xib; sourceTree = "<group>"; };
-		D1FF4626136257B9002E9BD3 /* BloodGlucoseAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodGlucoseAddViewController.h; path = ../BloodGlucoseAddViewController.h; sourceTree = "<group>"; };
-		D1FF4627136257B9002E9BD3 /* BloodGlucoseAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BloodGlucoseAddViewController.m; path = ../BloodGlucoseAddViewController.m; sourceTree = "<group>"; };
 		D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodGlucoseAddView.xib; sourceTree = "<group>"; };
-		D1FF462D136257D1002E9BD3 /* BloodPressureAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodPressureAddViewController.h; path = ../BloodPressureAddViewController.h; sourceTree = "<group>"; };
-		D1FF462E136257D1002E9BD3 /* BloodPressureAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BloodPressureAddViewController.m; path = ../BloodPressureAddViewController.m; sourceTree = "<group>"; };
 		D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodPressureAddView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,30 +234,56 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D13D308713AD4FE00041ECAC /* BloodGlucose.h */,
+				D13D308813AD4FE00041ECAC /* BloodGlucose.m */,
+				D13D308913AD4FE00041ECAC /* BloodGlucoseAddViewController.h */,
+				D13D308A13AD4FE00041ECAC /* BloodGlucoseAddViewController.m */,
+				D13D308B13AD4FE00041ECAC /* BloodGlucoseDay.h */,
+				D13D308C13AD4FE00041ECAC /* BloodGlucoseDay.m */,
+				D13D308D13AD4FE00041ECAC /* BloodPressure.h */,
+				D13D308E13AD4FE00041ECAC /* BloodPressure.m */,
+				D13D308F13AD4FE00041ECAC /* BloodPressureAddViewController.h */,
+				D13D309013AD4FE00041ECAC /* BloodPressureAddViewController.m */,
+				D13D309113AD4FE00041ECAC /* BloodPressureDay.h */,
+				D13D309213AD4FE00041ECAC /* BloodPressureDay.m */,
+				D13D309313AD4FE00041ECAC /* Exercise.h */,
+				D13D309413AD4FE00041ECAC /* Exercise.m */,
+				D13D309513AD4FE00041ECAC /* ExerciseDetailViewController.h */,
+				D13D309613AD4FE00041ECAC /* ExerciseDetailViewController.m */,
+				D13D309713AD4FE00041ECAC /* ExerciseItem.h */,
+				D13D309813AD4FE00041ECAC /* ExerciseItem.m */,
+				D13D309913AD4FE00041ECAC /* FoodItem.h */,
+				D13D309A13AD4FE00041ECAC /* FoodItem.m */,
+				D13D309B13AD4FE00041ECAC /* GoalAddViewController.h */,
+				D13D309C13AD4FE00041ECAC /* GoalAddViewController.m */,
+				D13D309D13AD4FE00041ECAC /* GoalDetailViewController.h */,
+				D13D309E13AD4FE00041ECAC /* GoalDetailViewController.m */,
+				D13D309F13AD4FE00041ECAC /* GoalRec.h */,
+				D13D30A013AD4FE00041ECAC /* GoalRec.m */,
+				D13D30A113AD4FE00041ECAC /* Meal.h */,
+				D13D30A213AD4FE00041ECAC /* Meal.m */,
+				D13D30A313AD4FE00041ECAC /* MealDetailViewController.h */,
+				D13D30A413AD4FE00041ECAC /* MealDetailViewController.m */,
+				D13D30A513AD4FE00041ECAC /* Medicine.h */,
+				D13D30A613AD4FE00041ECAC /* Medicine.m */,
+				D13D30A713AD4FE00041ECAC /* MedicineDetailViewController.h */,
+				D13D30A813AD4FE00041ECAC /* MedicineDetailViewController.m */,
+				D13D30A913AD4FE00041ECAC /* RxItem.h */,
+				D13D30AA13AD4FE00041ECAC /* RxItem.m */,
+				D13D30AB13AD4FE00041ECAC /* Vital.h */,
+				D13D30AC13AD4FE00041ECAC /* Vital.m */,
+				D13D30AD13AD4FE00041ECAC /* VitalDetailViewController.h */,
+				D13D30AE13AD4FE00041ECAC /* VitalDetailViewController.m */,
+				D13D30AF13AD4FE10041ECAC /* Weight.h */,
+				D13D30B013AD4FE10041ECAC /* Weight.m */,
 				D13D308413AD4E2B0041ECAC /* Goal.h */,
 				D13D308513AD4E2B0041ECAC /* Goal.m */,
 				D1FF46111362530B002E9BD3 /* MedicineAddViewController.h */,
 				D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */,
 				D1FF461813625324002E9BD3 /* MealAddViewController.h */,
 				D1FF461913625324002E9BD3 /* MealAddViewController.m */,
-				D1FF4626136257B9002E9BD3 /* BloodGlucoseAddViewController.h */,
-				D1FF4627136257B9002E9BD3 /* BloodGlucoseAddViewController.m */,
-				D1FF462D136257D1002E9BD3 /* BloodPressureAddViewController.h */,
-				D1FF462E136257D1002E9BD3 /* BloodPressureAddViewController.m */,
 				D1FF461F13625368002E9BD3 /* ExerciseAddViewController.h */,
 				D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */,
-				D1FF40931348E70C002E9BD3 /* GoalAddViewController.h */,
-				D1FF40941348E70C002E9BD3 /* GoalAddViewController.m */,
-				D15F8484132DC3B4003BC3E5 /* GoalDetailViewController.h */,
-				D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */,
-				D15F848B132DC3D9003BC3E5 /* VitalDetailViewController.h */,
-				D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */,
-				D15F8492132DC3FC003BC3E5 /* MedicineDetailViewController.h */,
-				D15F8493132DC3FC003BC3E5 /* MedicineDetailViewController.m */,
-				D15F8499132DC40C003BC3E5 /* MealDetailViewController.h */,
-				D15F849A132DC40C003BC3E5 /* MealDetailViewController.m */,
-				D15F84A0132DC41D003BC3E5 /* ExerciseDetailViewController.h */,
-				D15F84A1132DC41D003BC3E5 /* ExerciseDetailViewController.m */,
 				D19EBB2E12FF7434002763E4 /* ContextController.h */,
 				D19EBB2F12FF7434002763E4 /* ContextController.m */,
 				1D3623240D0F684500981E51 /* MachineAppDelegate.h */,
@@ -296,32 +322,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D1FC063F1325D2B500863FE2 /* BloodPressureDay.h */,
-				D1FC06401325D2B500863FE2 /* BloodPressureDay.m */,
-				D1FC06411325D2B500863FE2 /* Medicine.h */,
-				D1FC06371325D2B500863FE2 /* RxItem.h */,
-				D1FC06381325D2B500863FE2 /* RxItem.m */,
-				D1FC06421325D2B500863FE2 /* Medicine.m */,
-				D1FC06431325D2B500863FE2 /* FoodItem.h */,
-				D1FC06441325D2B500863FE2 /* FoodItem.m */,
-				D1FC06451325D2B500863FE2 /* BloodPressure.h */,
-				D1FC06461325D2B500863FE2 /* BloodPressure.m */,
-				D1FC06471325D2B500863FE2 /* ExerciseItem.h */,
-				D1FC06481325D2B500863FE2 /* ExerciseItem.m */,
-				D1FC06491325D2B500863FE2 /* Meal.h */,
-				D1FC064A1325D2B500863FE2 /* Meal.m */,
-				D1FC064B1325D2B500863FE2 /* BloodGlucose.h */,
-				D1FC064C1325D2B500863FE2 /* BloodGlucose.m */,
-				D1FC064D1325D2B500863FE2 /* BloodGlucoseDay.h */,
-				D1FC064E1325D2B500863FE2 /* BloodGlucoseDay.m */,
-				D1FC06391325D2B500863FE2 /* Exercise.h */,
-				D1FC063A1325D2B500863FE2 /* Exercise.m */,
-				D1FC063B1325D2B500863FE2 /* Weight.h */,
-				D1FC063C1325D2B500863FE2 /* Weight.m */,
-				D1FC063D1325D2B500863FE2 /* Vital.h */,
-				D1FC063E1325D2B500863FE2 /* Vital.m */,
-				D1FC019C131B48FA00863FE2 /* GoalRec.h */,
-				D1FC019D131B48FA00863FE2 /* GoalRec.m */,
 				28A0AAE50D9B0CCF005BE974 /* Machine_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -541,31 +541,31 @@
 				2804200B108E984D000629CD /* RootViewController.m in Sources */,
 				2819300E112F7FA900ECF9B4 /* Machine.xcdatamodeld in Sources */,
 				D19EBB3012FF7434002763E4 /* ContextController.m in Sources */,
-				D1FC01A0131B48FA00863FE2 /* GoalRec.m in Sources */,
-				D1FC064F1325D2B500863FE2 /* RxItem.m in Sources */,
-				D1FC06501325D2B500863FE2 /* Exercise.m in Sources */,
-				D1FC06511325D2B500863FE2 /* Weight.m in Sources */,
-				D1FC06521325D2B500863FE2 /* Vital.m in Sources */,
-				D1FC06531325D2B500863FE2 /* BloodPressureDay.m in Sources */,
-				D1FC06541325D2B500863FE2 /* Medicine.m in Sources */,
-				D1FC06551325D2B500863FE2 /* FoodItem.m in Sources */,
-				D1FC06561325D2B500863FE2 /* BloodPressure.m in Sources */,
-				D1FC06571325D2B500863FE2 /* ExerciseItem.m in Sources */,
-				D1FC06581325D2B500863FE2 /* Meal.m in Sources */,
-				D1FC06591325D2B500863FE2 /* BloodGlucose.m in Sources */,
-				D1FC065A1325D2B500863FE2 /* BloodGlucoseDay.m in Sources */,
-				D15F8487132DC3B4003BC3E5 /* GoalDetailViewController.m in Sources */,
-				D15F848E132DC3D9003BC3E5 /* VitalDetailViewController.m in Sources */,
-				D15F8495132DC3FC003BC3E5 /* MedicineDetailViewController.m in Sources */,
-				D15F849C132DC40C003BC3E5 /* MealDetailViewController.m in Sources */,
-				D15F84A3132DC41D003BC3E5 /* ExerciseDetailViewController.m in Sources */,
-				D1FF40961348E70C002E9BD3 /* GoalAddViewController.m in Sources */,
 				D1FF46141362530B002E9BD3 /* MedicineAddViewController.m in Sources */,
 				D1FF461B13625324002E9BD3 /* MealAddViewController.m in Sources */,
 				D1FF462213625368002E9BD3 /* ExerciseAddViewController.m in Sources */,
-				D1FF4629136257B9002E9BD3 /* BloodGlucoseAddViewController.m in Sources */,
-				D1FF4630136257D1002E9BD3 /* BloodPressureAddViewController.m in Sources */,
 				D13D308613AD4E2B0041ECAC /* Goal.m in Sources */,
+				D13D30B113AD4FE10041ECAC /* BloodGlucose.m in Sources */,
+				D13D30B213AD4FE10041ECAC /* BloodGlucoseAddViewController.m in Sources */,
+				D13D30B313AD4FE10041ECAC /* BloodGlucoseDay.m in Sources */,
+				D13D30B413AD4FE10041ECAC /* BloodPressure.m in Sources */,
+				D13D30B513AD4FE10041ECAC /* BloodPressureAddViewController.m in Sources */,
+				D13D30B613AD4FE10041ECAC /* BloodPressureDay.m in Sources */,
+				D13D30B713AD4FE10041ECAC /* Exercise.m in Sources */,
+				D13D30B813AD4FE10041ECAC /* ExerciseDetailViewController.m in Sources */,
+				D13D30B913AD4FE10041ECAC /* ExerciseItem.m in Sources */,
+				D13D30BA13AD4FE10041ECAC /* FoodItem.m in Sources */,
+				D13D30BB13AD4FE10041ECAC /* GoalAddViewController.m in Sources */,
+				D13D30BC13AD4FE10041ECAC /* GoalDetailViewController.m in Sources */,
+				D13D30BD13AD4FE10041ECAC /* GoalRec.m in Sources */,
+				D13D30BE13AD4FE10041ECAC /* Meal.m in Sources */,
+				D13D30BF13AD4FE10041ECAC /* MealDetailViewController.m in Sources */,
+				D13D30C013AD4FE10041ECAC /* Medicine.m in Sources */,
+				D13D30C113AD4FE10041ECAC /* MedicineDetailViewController.m in Sources */,
+				D13D30C213AD4FE10041ECAC /* RxItem.m in Sources */,
+				D13D30C313AD4FE10041ECAC /* Vital.m in Sources */,
+				D13D30C413AD4FE10041ECAC /* VitalDetailViewController.m in Sources */,
+				D13D30C513AD4FE10041ECAC /* Weight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
