@@ -1,23 +1,17 @@
 //
-//  SetupTests.m
+//  SampleTests.m
 //  Machine
 //
-//  Created by David Whitehurst on 6/17/11.
+//  Created by David Whitehurst on 6/18/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-
 #import <GHUnitIOS/GHUnit.h>
-#import <CoreData/CoreData.h>
-#import "Goal.h"
-#import "GoalRec.h"
 
-@interface ControllerTests : GHTestCase { }
-@property (retain) Goal *goal;
+@interface SampleTests : GHTestCase { }
 @end
 
-@implementation ControllerTests
-@synthesize goal;
+@implementation SampleTests
 
 - (BOOL)shouldRunOnMainThread {
     // By default NO, but if you have a UI test or test dependent on running on the main thread return YES
@@ -34,20 +28,18 @@
 
 - (void)setUp {
     // Run before each test method
-    self.goal = [[[Goal alloc] init] autorelease];
 }
 
 - (void)tearDown {
     // Run after each test method
-    self.goal = nil;   // prevents memory leak
 }  
 
-- (void)testImageArray {
+- (void)testStrings {
+    
+    NSString *oneStr = @"Hello";
+    NSString *twoStr = @"Hello";
 
-    NSString *str = @"Hello";
-    Goal *obj = self.goal;
-    obj.goal = str;
-    GHAssertEqualStrings(obj.goal, @"Hello", nil);
+    GHAssertEqualStrings(oneStr, twoStr, nil);
     
 }
 

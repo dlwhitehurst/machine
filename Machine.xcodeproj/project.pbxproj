@@ -21,7 +21,6 @@
 		D11707A01308BCFD00144E07 /* Default-LandscapeRight.png in Resources */ = {isa = PBXBuildFile; fileRef = D117079B1308BCFD00144E07 /* Default-LandscapeRight.png */; };
 		D11707A11308BCFD00144E07 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = D117079C1308BCFD00144E07 /* Default-Portrait.png */; };
 		D11707A21308BCFD00144E07 /* Default-PortraitUpsideDown.png in Resources */ = {isa = PBXBuildFile; fileRef = D117079D1308BCFD00144E07 /* Default-PortraitUpsideDown.png */; };
-		D1205CB013AC16FA00E346E5 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1205CAF13AC16FA00E346E5 /* GHUnitIOS.framework */; };
 		D1205D0D13AC21FA00E346E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		D1205D0E13AC21FA00E346E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		D1205D0F13AC21FA00E346E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
@@ -32,8 +31,9 @@
 		D1205D2213AC21FA00E346E5 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1205D2013AC21FA00E346E5 /* MainWindow_iPhone.xib */; };
 		D1205D2613AC21FA00E346E5 /* TestsAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D1205D2513AC21FA00E346E5 /* TestsAppDelegate_iPad.m */; };
 		D1205D2913AC21FA00E346E5 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1205D2713AC21FA00E346E5 /* MainWindow_iPad.xib */; };
-		D1205D3413AC286000E346E5 /* ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1205D3013AC227B00E346E5 /* ControllerTests.m */; };
 		D1218B9E13AD091E00231688 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D1218B9D13AD091E00231688 /* README */; };
+		D13D307B13AD0B7F0041ECAC /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13D307A13AD0B7F0041ECAC /* GHUnitIOS.framework */; };
+		D13D308313AD23F80041ECAC /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D308213AD23F80041ECAC /* SampleTests.m */; };
 		D15F8487132DC3B4003BC3E5 /* GoalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */; };
 		D15F8488132DC3B4003BC3E5 /* GoalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */; };
 		D15F848E132DC3D9003BC3E5 /* VitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F848C132DC3D9003BC3E5 /* VitalDetailViewController.m */; };
@@ -82,6 +82,16 @@
 		D1FF4631136257D1002E9BD3 /* BloodPressureAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D13D307E13AD0BB40041ECAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6058900D05DD3D006BFB54;
+			remoteInfo = Machine;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* MachineAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineAppDelegate.h; sourceTree = "<group>"; };
@@ -103,7 +113,6 @@
 		D117079B1308BCFD00144E07 /* Default-LandscapeRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeRight.png"; sourceTree = "<group>"; };
 		D117079C1308BCFD00144E07 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		D117079D1308BCFD00144E07 /* Default-PortraitUpsideDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-PortraitUpsideDown.png"; sourceTree = "<group>"; };
-		D1205CAF13AC16FA00E346E5 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../../../Development/Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
 		D1205D0B13AC21FA00E346E5 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1205D1213AC21FA00E346E5 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		D1205D1413AC21FA00E346E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -117,8 +126,9 @@
 		D1205D2413AC21FA00E346E5 /* TestsAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestsAppDelegate_iPad.h; path = iPad/TestsAppDelegate_iPad.h; sourceTree = "<group>"; };
 		D1205D2513AC21FA00E346E5 /* TestsAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestsAppDelegate_iPad.m; path = iPad/TestsAppDelegate_iPad.m; sourceTree = "<group>"; };
 		D1205D2813AC21FA00E346E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
-		D1205D3013AC227B00E346E5 /* ControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerTests.m; sourceTree = "<group>"; };
 		D1218B9D13AD091E00231688 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		D13D307A13AD0B7F0041ECAC /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = ../../../../Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
+		D13D308213AD23F80041ECAC /* SampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
 		D15F8484132DC3B4003BC3E5 /* GoalDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoalDetailViewController.h; path = ../GoalDetailViewController.h; sourceTree = "<group>"; };
 		D15F8485132DC3B4003BC3E5 /* GoalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoalDetailViewController.m; path = ../GoalDetailViewController.m; sourceTree = "<group>"; };
 		D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalDetailView.xib; sourceTree = "<group>"; };
@@ -203,7 +213,6 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				280420C1108EA07E000629CD /* CoreData.framework in Frameworks */,
-				D1205CB013AC16FA00E346E5 /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13D307B13AD0B7F0041ECAC /* GHUnitIOS.framework in Frameworks */,
 				D1205D0D13AC21FA00E346E5 /* UIKit.framework in Frameworks */,
 				D1205D0E13AC21FA00E346E5 /* Foundation.framework in Frameworks */,
 				D1205D0F13AC21FA00E346E5 /* CoreGraphics.framework in Frameworks */,
@@ -267,6 +277,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D13D307A13AD0B7F0041ECAC /* GHUnitIOS.framework */,
 				D1218B9D13AD091E00231688 /* README */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -355,7 +366,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1205CAF13AC16FA00E346E5 /* GHUnitIOS.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
@@ -367,7 +377,7 @@
 		D1205D1013AC21FA00E346E5 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D1205D3013AC227B00E346E5 /* ControllerTests.m */,
+				D13D308213AD23F80041ECAC /* SampleTests.m */,
 				D1205D1913AC21FA00E346E5 /* TestsAppDelegate.h */,
 				D1205D1A13AC21FA00E346E5 /* TestsAppDelegate.m */,
 				D1205D1C13AC21FA00E346E5 /* iPhone */,
@@ -439,6 +449,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D13D307F13AD0BB40041ECAC /* PBXTargetDependency */,
 			);
 			name = Tests;
 			productName = Tests;
@@ -560,15 +571,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1205D3413AC286000E346E5 /* ControllerTests.m in Sources */,
 				D1205D1813AC21FA00E346E5 /* GHUnitIOSTestMain.m in Sources */,
 				D1205D1B13AC21FA00E346E5 /* TestsAppDelegate.m in Sources */,
 				D1205D1F13AC21FA00E346E5 /* TestsAppDelegate_iPhone.m in Sources */,
 				D1205D2613AC21FA00E346E5 /* TestsAppDelegate_iPad.m in Sources */,
+				D13D308313AD23F80041ECAC /* SampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13D307F13AD0BB40041ECAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6058900D05DD3D006BFB54 /* Machine */;
+			targetProxy = D13D307E13AD0BB40041ECAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D1205D1313AC21FA00E346E5 /* InfoPlist.strings */ = {
@@ -612,6 +631,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Machine_Prefix.pch;
 				INFOPLIST_FILE = "Machine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Machine;
 				SDKROOT = iphoneos4.3;
@@ -631,6 +651,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Machine_Prefix.pch;
 				INFOPLIST_FILE = "Machine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Machine;
 				TEST_AFTER_BUILD = NO;
@@ -677,6 +698,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Development/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Frameworks\"",
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator4.3][arch=*]" = "\"/Users/dlwhitehurst/Development/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -687,6 +709,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"/Users/dlwhitehurst/Development/Coding/Objective-C/iPad/machine\"";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				KEEP_PRIVATE_EXTERNS = NO;
@@ -712,6 +735,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Development/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Frameworks\"",
 				);
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "\"/Users/dlwhitehurst/Development/Frameworks/GHUnitIOS.framework\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
