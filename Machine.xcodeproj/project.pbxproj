@@ -56,6 +56,10 @@
 		D13D30C313AD4FE10041ECAC /* Vital.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30AC13AD4FE00041ECAC /* Vital.m */; };
 		D13D30C413AD4FE10041ECAC /* VitalDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30AE13AD4FE00041ECAC /* VitalDetailViewController.m */; };
 		D13D30C513AD4FE10041ECAC /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D30B013AD4FE10041ECAC /* Weight.m */; };
+		D13D30CB13AD50D60041ECAC /* ExerciseAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13D30C613AD50D60041ECAC /* ExerciseAddView.xib */; };
+		D13D30CC13AD50D60041ECAC /* Machine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D13D30C713AD50D60041ECAC /* Machine.xcdatamodeld */; };
+		D13D30CD13AD50D60041ECAC /* MealAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13D30C913AD50D60041ECAC /* MealAddView.xib */; };
+		D13D30CE13AD50D60041ECAC /* MedicineAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13D30CA13AD50D60041ECAC /* MedicineAddView.xib */; };
 		D15F8488132DC3B4003BC3E5 /* GoalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */; };
 		D15F848F132DC3D9003BC3E5 /* VitalDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F848D132DC3D9003BC3E5 /* VitalDetailView.xib */; };
 		D15F8496132DC3FC003BC3E5 /* MedicineDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F8494132DC3FC003BC3E5 /* MedicineDetailView.xib */; };
@@ -74,11 +78,8 @@
 		D1FC08BF1329368500863FE2 /* gear-ipad-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FC08BE1329368500863FE2 /* gear-ipad-icon.png */; };
 		D1FF40951348E70C002E9BD3 /* GoalAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF40921348E70C002E9BD3 /* GoalAddView.xib */; };
 		D1FF46141362530B002E9BD3 /* MedicineAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */; };
-		D1FF46151362530B002E9BD3 /* MedicineAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF46131362530B002E9BD3 /* MedicineAddView.xib */; };
 		D1FF461B13625324002E9BD3 /* MealAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF461913625324002E9BD3 /* MealAddViewController.m */; };
-		D1FF461C13625324002E9BD3 /* MealAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF461A13625324002E9BD3 /* MealAddView.xib */; };
 		D1FF462213625368002E9BD3 /* ExerciseAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */; };
-		D1FF462313625368002E9BD3 /* ExerciseAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF462113625368002E9BD3 /* ExerciseAddView.xib */; };
 		D1FF462A136257B9002E9BD3 /* BloodGlucoseAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */; };
 		D1FF4631136257D1002E9BD3 /* BloodPressureAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */; };
 /* End PBXBuildFile section */
@@ -174,6 +175,10 @@
 		D13D30AE13AD4FE00041ECAC /* VitalDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VitalDetailViewController.m; sourceTree = "<group>"; };
 		D13D30AF13AD4FE10041ECAC /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight.h; sourceTree = "<group>"; };
 		D13D30B013AD4FE10041ECAC /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight.m; sourceTree = "<group>"; };
+		D13D30C613AD50D60041ECAC /* ExerciseAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseAddView.xib; sourceTree = "<group>"; };
+		D13D30C813AD50D60041ECAC /* Machine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Machine.xcdatamodel; sourceTree = "<group>"; };
+		D13D30C913AD50D60041ECAC /* MealAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealAddView.xib; sourceTree = "<group>"; };
+		D13D30CA13AD50D60041ECAC /* MedicineAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicineAddView.xib; sourceTree = "<group>"; };
 		D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalDetailView.xib; sourceTree = "<group>"; };
 		D15F848D132DC3D9003BC3E5 /* VitalDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VitalDetailView.xib; sourceTree = "<group>"; };
 		D15F8494132DC3FC003BC3E5 /* MedicineDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicineDetailView.xib; sourceTree = "<group>"; };
@@ -194,13 +199,10 @@
 		D1FF40921348E70C002E9BD3 /* GoalAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalAddView.xib; sourceTree = "<group>"; };
 		D1FF46111362530B002E9BD3 /* MedicineAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineAddViewController.h; sourceTree = "<group>"; };
 		D1FF46121362530B002E9BD3 /* MedicineAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineAddViewController.m; sourceTree = "<group>"; };
-		D1FF46131362530B002E9BD3 /* MedicineAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MedicineAddView.xib; path = Classes/MedicineAddView.xib; sourceTree = "<group>"; };
 		D1FF461813625324002E9BD3 /* MealAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealAddViewController.h; sourceTree = "<group>"; };
 		D1FF461913625324002E9BD3 /* MealAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealAddViewController.m; sourceTree = "<group>"; };
-		D1FF461A13625324002E9BD3 /* MealAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MealAddView.xib; path = Classes/MealAddView.xib; sourceTree = "<group>"; };
 		D1FF461F13625368002E9BD3 /* ExerciseAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseAddViewController.h; sourceTree = "<group>"; };
 		D1FF462013625368002E9BD3 /* ExerciseAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseAddViewController.m; sourceTree = "<group>"; };
-		D1FF462113625368002E9BD3 /* ExerciseAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ExerciseAddView.xib; path = Classes/ExerciseAddView.xib; sourceTree = "<group>"; };
 		D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodGlucoseAddView.xib; sourceTree = "<group>"; };
 		D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodPressureAddView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -331,11 +333,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D13D30C613AD50D60041ECAC /* ExerciseAddView.xib */,
+				D13D30C713AD50D60041ECAC /* Machine.xcdatamodeld */,
+				D13D30C913AD50D60041ECAC /* MealAddView.xib */,
+				D13D30CA13AD50D60041ECAC /* MedicineAddView.xib */,
 				D1FF4628136257B9002E9BD3 /* BloodGlucoseAddView.xib */,
 				D1FF462F136257D1002E9BD3 /* BloodPressureAddView.xib */,
-				D1FF462113625368002E9BD3 /* ExerciseAddView.xib */,
-				D1FF461A13625324002E9BD3 /* MealAddView.xib */,
-				D1FF46131362530B002E9BD3 /* MedicineAddView.xib */,
 				D1FF40921348E70C002E9BD3 /* GoalAddView.xib */,
 				D15F8486132DC3B4003BC3E5 /* GoalDetailView.xib */,
 				D15F84A2132DC41D003BC3E5 /* ExerciseDetailView.xib */,
@@ -510,12 +513,12 @@
 				D15F849D132DC40C003BC3E5 /* MealDetailView.xib in Resources */,
 				D15F84A4132DC41D003BC3E5 /* ExerciseDetailView.xib in Resources */,
 				D1FF40951348E70C002E9BD3 /* GoalAddView.xib in Resources */,
-				D1FF46151362530B002E9BD3 /* MedicineAddView.xib in Resources */,
-				D1FF461C13625324002E9BD3 /* MealAddView.xib in Resources */,
-				D1FF462313625368002E9BD3 /* ExerciseAddView.xib in Resources */,
 				D1FF462A136257B9002E9BD3 /* BloodGlucoseAddView.xib in Resources */,
 				D1FF4631136257D1002E9BD3 /* BloodPressureAddView.xib in Resources */,
 				D1218B9E13AD091E00231688 /* README in Resources */,
+				D13D30CB13AD50D60041ECAC /* ExerciseAddView.xib in Resources */,
+				D13D30CD13AD50D60041ECAC /* MealAddView.xib in Resources */,
+				D13D30CE13AD50D60041ECAC /* MedicineAddView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +569,7 @@
 				D13D30C313AD4FE10041ECAC /* Vital.m in Sources */,
 				D13D30C413AD4FE10041ECAC /* VitalDetailViewController.m in Sources */,
 				D13D30C513AD4FE10041ECAC /* Weight.m in Sources */,
+				D13D30CC13AD50D60041ECAC /* Machine.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,6 +804,16 @@
 			currentVersion = 280420B3108E9F58000629CD /* Machine.xcdatamodel */;
 			name = Machine.xcdatamodeld;
 			path = Punch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		D13D30C713AD50D60041ECAC /* Machine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D13D30C813AD50D60041ECAC /* Machine.xcdatamodel */,
+			);
+			currentVersion = D13D30C813AD50D60041ECAC /* Machine.xcdatamodel */;
+			path = Machine.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
