@@ -2,6 +2,7 @@
 // main.m
 // 
 // Created by David L. Whitehurst on 06/18/2011.
+// Modified 08/28/2011
 // Copyright 2011. All rights reserved.
 //
 // This software and associated documentation is PROPRIETARY and 
